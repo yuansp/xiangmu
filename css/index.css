@@ -1,0 +1,87 @@
+@charset "utf-8";
+.top {
+	background: url(../images/top_01.gif) repeat-x;
+	height: 112px;
+}
+.box1000{
+	width: 1000px;
+	margin:0px auto;
+}
+.top .toplink{
+	font-size: 12px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 14px;
+	display: inline;
+}
+.top .toplink a{
+	text-decoration: none;
+	color: #656565;
+	display: inline-block;
+	_padding:1px 0px;
+	margin: 0px 4px;
+}
+.top .nav ul{
+	position: absolute;
+	z-index: 1000;
+	top: 82px;
+}
+.top .nav ul li{
+	float: left;
+	background: url(../images/top_03.gif) no-repeat;
+	width: 110px;height: 40px;
+	text-align: center;vertical-align: middle;
+	line-height: 30px;
+}
+.top .nav li a{
+	color: #000;
+	font-family: "微软雅黑","黑体","宋体";
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+	width: 100%;height: 100%;
+}
+.top .nav li a:hover{
+	color: #fff;
+	background: url(../images/top_07.gif) no-repeat top center;
+}
+.top .nav .a{
+	top: 38px;
+	display: none;
+	position: absolute;
+}
+.top .nav .a ul{
+	display: none;
+	position: absolute;
+	left: 150px;top: 0px;
+}
+.top .nav .a ul li{
+	background: #eee;
+}
+.top .nav .a ul li a:hover{
+	color: #fff;
+	background: #16619b;
+}
+.top .nav .a li{
+	float: none;
+	border: 1px solid #babab8;
+	background: #eee url(../images/s_07.gif) no-repeat 140px 15px;
+	width: 150px;height: 37px;
+	line-height: 37px;
+	position: relative;
+}
+.top .nav .a li a:hover{
+	color: #fff;
+	background: #16619b url(../images/s_10.gif) no-repeat 140px 15px;
+}
+.top .banner{
+	position: relative;
+	overflow: hidden;
+	background: url(../images/banner_02.gif) repeat-x;
+	height: 309px;
+}
+.top .banner .con{
+	width: 1000px;
+	margin: 0px auto;
+	position: relative;
+}
